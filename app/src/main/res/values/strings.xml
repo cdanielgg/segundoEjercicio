@@ -2,12 +2,16 @@
     <string name="app_name">SecondApp</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_title">Segunda App</string>
+    <string name="nav_header_subtitle">Carlos D.gil garcia</string>
     <string name="nav_headgiter_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
-    <string name="title_activity_secciones">SeccionesActivity</string>
+    <string name="title_activity_secciones">Segunda Actividad</string>
     <string name="section_format">Bienvenido a la app</string>
+    <string name="ToolsActivity">Bienvenido a las herramientas</string>
+    <string name="GalleryActivity">Bienvenido a la Galeria</string>
+    <string name="GalleryText">Escribe algo!!!</string>
+
 
     <!-- main_menu-->
     <string name="lanzador">Lanzador</string>
@@ -16,7 +20,8 @@
     <string name="rojito">Rojito</string>
 
 
-
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_gallery">GalleryActivity</string>
+    <string name="title_activity_tools">ToolsActivity</string>
 </resources>

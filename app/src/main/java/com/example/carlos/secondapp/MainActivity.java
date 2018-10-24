@@ -111,18 +111,22 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
+                  if (id == R.id.nav_gallery) {
 
-            Toast.makeText(getApplicationContext(), "Camera is clicked", Toast.LENGTH_SHORT).show();
+                      Intent intent = new Intent(getApplicationContext(),GalleryActivity.class);
+                      startActivity(intent);
 
-                   } else if (id == R.id.nav_gallery) {
-            Toast.makeText(getApplicationContext(), "Gallery is clicked", Toast.LENGTH_SHORT).show();
-
-        } else if (id == R.id.nav_slideshow) {
-            Toast.makeText(getApplicationContext(), "Slideshow is clicked", Toast.LENGTH_SHORT).show();
-
+            Toast.makeText(getApplicationContext(), "Has pulsado sobre Gallery ", Toast.LENGTH_SHORT).show();
 
         } else if (id == R.id.nav_manage) {
+            Toast.makeText(getApplicationContext(), " Has pulsado sobre Herramientas ", Toast.LENGTH_SHORT).show();
+
+                      Intent intent = new Intent(getApplicationContext(),ToolsActivity.class);
+                      startActivity(intent);
+
+        } else if (id == R.id.nav_manage) {
+
+
         } else if (id == R.id.nav_secciones) {
 
             Intent intent = new Intent(getApplicationContext(),SeccionesActivity.class);

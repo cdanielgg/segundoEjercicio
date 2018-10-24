@@ -61,18 +61,14 @@
                                   </option>
                                   <option name="values">
                                     <map>
-                                      <entry key="foregroundAssetType" value="CLIP_ART" />
-                                      <entry key="outputName" value="ic_nube" />
+                                      <entry key="backgroundImage" value="C:\Users\carlos\Downloads\see.jpg" />
+                                      <entry key="foregroundImage" value="C:\Users\carlos\Downloads\see.jpg" />
+                                      <entry key="outputName" value="ic_playas" />
                                     </map>
                                   </option>
                                 </PersistentState>
                               </value>
                             </entry>
-                          </map>
-                        </option>
-                        <option name="values">
-                          <map>
-                            <entry key="outputIconType" value="ACTIONBAR" />
                           </map>
                         </option>
                       </PersistentState>
